@@ -1,2 +1,2 @@
 # erode-direct
-A home appliance ecommerce site
+A home appliance ecommerce site for erode-direct 
