@@ -28,7 +28,7 @@ const Checkout = () => {
 
 	const description = `Payment of ${formatPrice(totalAmount)} from ${email}`;
 	useEffect(() => {
-		fetch("http://localhost:4242/create-payment-intent", {
+		fetch("https://erode-direct.onrender.com/create-payment-intent", {
 		  method: "POST",
 		  headers: { "Content-Type": "application/json" },
 		  body: JSON.stringify({
