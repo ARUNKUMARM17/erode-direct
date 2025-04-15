@@ -80,7 +80,7 @@ const CheckoutForm = () => {
 
     // Step 2: Confirm the payment
     const { clientSecret } = await fetch(
-      "https://erode-direct.onrender.com/create-payment-intent", // Your backend URL
+      "https://Erode Marketing.onrender.com/create-payment-intent", // Your backend URL
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
