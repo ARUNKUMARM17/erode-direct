@@ -95,7 +95,7 @@ const tags = [
   "Air Conditioners",
   "Smart TVs",
   "Microwave Ovens",
-  "Vacuum Cleaners",
+  "Electronics",
 ];
 
 let currentIndex = 0;
